@@ -12,6 +12,13 @@
 		8723B2C820343B30009EDE8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8723B2C620343B30009EDE8C /* Main.storyboard */; };
 		8723B2CA20343B30009EDE8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8723B2C920343B30009EDE8C /* Assets.xcassets */; };
 		8723B2CD20343B30009EDE8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8723B2CB20343B30009EDE8C /* LaunchScreen.storyboard */; };
+		8723B2D720343BF3009EDE8C /* JobData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8723B2D620343BF3009EDE8C /* JobData.swift */; };
+		8723B2D920343CC0009EDE8C /* page_jobList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8723B2D820343CC0009EDE8C /* page_jobList.swift */; };
+		8723B2DB2034403A009EDE8C /* page_jobTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8723B2DA2034403A009EDE8C /* page_jobTabController.swift */; };
+		8723B2DD203440D6009EDE8C /* page_jobInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8723B2DC203440D6009EDE8C /* page_jobInformation.swift */; };
+		8723B2DF203440F6009EDE8C /* page_shotList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8723B2DE203440F6009EDE8C /* page_shotList.swift */; };
+		8723B2E12034410E009EDE8C /* page_attachments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8723B2E02034410E009EDE8C /* page_attachments.swift */; };
+		8723B2E320344123009EDE8C /* page_notesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8723B2E220344123009EDE8C /* page_notesList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		8723B2C920343B30009EDE8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8723B2CC20343B30009EDE8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8723B2CE20343B30009EDE8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8723B2D620343BF3009EDE8C /* JobData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobData.swift; sourceTree = "<group>"; };
+		8723B2D820343CC0009EDE8C /* page_jobList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = page_jobList.swift; sourceTree = "<group>"; };
+		8723B2DA2034403A009EDE8C /* page_jobTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = page_jobTabController.swift; sourceTree = "<group>"; };
+		8723B2DC203440D6009EDE8C /* page_jobInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = page_jobInformation.swift; sourceTree = "<group>"; };
+		8723B2DE203440F6009EDE8C /* page_shotList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = page_shotList.swift; sourceTree = "<group>"; };
+		8723B2E02034410E009EDE8C /* page_attachments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = page_attachments.swift; sourceTree = "<group>"; };
+		8723B2E220344123009EDE8C /* page_notesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = page_notesList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +74,13 @@
 				8723B2C920343B30009EDE8C /* Assets.xcassets */,
 				8723B2CB20343B30009EDE8C /* LaunchScreen.storyboard */,
 				8723B2CE20343B30009EDE8C /* Info.plist */,
+				8723B2D620343BF3009EDE8C /* JobData.swift */,
+				8723B2D820343CC0009EDE8C /* page_jobList.swift */,
+				8723B2DA2034403A009EDE8C /* page_jobTabController.swift */,
+				8723B2DC203440D6009EDE8C /* page_jobInformation.swift */,
+				8723B2DE203440F6009EDE8C /* page_shotList.swift */,
+				8723B2E02034410E009EDE8C /* page_attachments.swift */,
+				8723B2E220344123009EDE8C /* page_notesList.swift */,
 			);
 			path = JobInfoStackoverflow;
 			sourceTree = "<group>";
@@ -136,8 +157,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8723B2DB2034403A009EDE8C /* page_jobTabController.swift in Sources */,
+				8723B2E12034410E009EDE8C /* page_attachments.swift in Sources */,
+				8723B2DD203440D6009EDE8C /* page_jobInformation.swift in Sources */,
+				8723B2D920343CC0009EDE8C /* page_jobList.swift in Sources */,
+				8723B2D720343BF3009EDE8C /* JobData.swift in Sources */,
+				8723B2E320344123009EDE8C /* page_notesList.swift in Sources */,
 				8723B2C520343B30009EDE8C /* ViewController.swift in Sources */,
 				8723B2C320343B30009EDE8C /* AppDelegate.swift in Sources */,
+				8723B2DF203440F6009EDE8C /* page_shotList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
